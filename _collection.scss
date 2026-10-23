@@ -1,0 +1,32 @@
+.collection {
+  text-align: center;
+  padding: 80px 100px;
+
+  &__title {
+    width: 100%;
+    max-width: 900px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 200px;
+
+    img {
+      width: 100px;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      margin: 20px 0 10px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}

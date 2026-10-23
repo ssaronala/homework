@@ -1,0 +1,23 @@
+@import './block/block';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow";
+  background-color: #fdfcf7;
+  color: #333d4b;
+}
+
+.button {
+  display: inline-block;
+  background-color: #0e8784;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-family: "Fraunces";
+}

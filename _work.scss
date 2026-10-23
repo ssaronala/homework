@@ -1,0 +1,37 @@
+.work {
+  padding: 0 100px 80px 200px;
+
+  &__title {
+    font-family: "Fraunces";
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    width: 230px;
+
+    span {
+      display: block;
+      font-family: "Fraunces";
+      font-size: 56px;
+      color: #fdd6ba;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-family: "Fraunces";
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+}

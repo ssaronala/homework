@@ -1,0 +1,21 @@
+.footer {
+  background-color: #2c343e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  margin: 0 100px 40px;
+
+  &__menu a {
+    color: white;
+    margin-right: 25px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  &__social img {
+    width: 18px;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,20 @@
+.intro {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: white;
+  padding: 80px 100px;
+  margin: 0 100px;
+
+  &__title {
+    font-family: "Fraunces";
+    font-size: 56px;
+    width: 350px;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    width: 350px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
